@@ -68,7 +68,7 @@ vTaskDelete( NULL );
 - vTaskDelete(NULL);: Aquesta línia de codi mai s'assolirà perquè el bucle és infinit. En cas que la tasca acabi, aquesta funció eliminaria la tasca actual.
 
   
-__4. Loop__
+__4. Setup__
 ```cpp
 void setup() {
   Serial.begin(112500);
